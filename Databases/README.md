@@ -11,7 +11,8 @@ db_password = 'YOUR_PASSWORD_HERE'
 ##### Double check that config.py is in your .gitignore (*.py should cover it. When using git, just make sure that your config.py is not tracked, and if it is, un-track it and do not push it! Then someone could steal your password.)
 
 Change the db_password to the password you used to connect to your local server.
-Activate your machine learning environment and your jupyter notebook. Open up the Databases.ipynb file in this folder and run the cells.
+
+Activate your machine learning environment and your jupyter notebook. Open up the InputOutputTables.ipynb file in this folder and run the cells.
 
 In pgAdmin, confirm that the table and data imported correctly. Follow these steps:
 Under Schema > public > Tables, right click.
