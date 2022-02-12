@@ -1,2 +1,2 @@
-# StateGDPGrowth
-Predict GDP per capita growth in a state.
+# PCI_Growth
+Predict per capita income growth in a state.
