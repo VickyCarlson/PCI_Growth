@@ -4,6 +4,7 @@
 Our topic is the effect of educational attainment on per capita income growth by state.
 
 ## Reason for Selecting Topic
+We chose our topic because we were interested in how much of an affect education would have on income, not only on an individual level, but on a state level.
 
 ## Questions to Answer with the Data
 
