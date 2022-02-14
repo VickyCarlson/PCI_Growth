@@ -34,4 +34,4 @@ Our team has chosen to communicate using the following methods:
 	- Zoom/Google Hangout virtual sessions
 	- Google Drive
 	- Email
-	- Text
+	- Text 
