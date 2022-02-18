@@ -1,6 +1,6 @@
 # PCI_Growth
 Predict per capita income growth in a state.
-![Per Capita Income Growth](Resources/Educ_Attnmt.jpg)
+![Educ_Attnmt](https://user-images.githubusercontent.com/89214854/154649471-b521c512-7baf-46ae-93ef-f2faf72263fd.jpg)
 
 ## Topic
 Our topic is the effect of educational attainment on per capita income growth by state.
