@@ -55,9 +55,11 @@ https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y
 
 
 •	To see if there is consistency in the relationship of educational attainment and per capita income growth of a state over time, we decided to cover a decade and half worth of data.
+
 •	To analyze if educational attainment affects per capita income growth, we are analyzing data from all the 50 states in the country. 
 
 ## Initial test of data on Linear Regression Model
 
 •	To test degree of an educational attainment, affect state’s per capita income, a linear regression model was used.
+
 •	From the preliminary results, a positive relationship was observed with some potential outliers that will be dealt later in the analysis.
