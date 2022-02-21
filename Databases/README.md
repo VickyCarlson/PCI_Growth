@@ -21,3 +21,9 @@ Select "View/Edit Data" followed by "First 100 Rows."
 ### Connecting machine learning model to database
 
 Once databases have been set up, connect machine learning model to database by running linear regression.ipynb file. .to_sql sends any dataframe to a new table in our database. See modelmetrics table. This just serves as a static container for our data. We don't do much with it other than store for later, but databases can be useful in many ways, like keeping up-to-date data with API calls, etc.
+
+## Join 
+See join.sql on how to join the output and input feature database tables
+
+## ERD
+![ERD](ERD.png)
