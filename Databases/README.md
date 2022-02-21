@@ -12,7 +12,7 @@ db_password = 'YOUR_PASSWORD_HERE'
 
 Change the db_password to the password you used to connect to your local server.
 
-Activate your machine learning environment and your jupyter notebook. Open up the InputOutputTables.ipynb file in this folder and run the cells.
+Activate your machine learning environment and your jupyter notebook. Open up the InputOutputTables.ipynb file in this folder and run the cells to import our input/output data. Then, run the query stored in join.sql to join the two tables.
 
 In pgAdmin, confirm that the table and data imported correctly. Follow these steps:
 Under Schema > public > Tables, right click.
