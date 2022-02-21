@@ -17,3 +17,7 @@ Activate your machine learning environment and your jupyter notebook. Open up th
 In pgAdmin, confirm that the table and data imported correctly. Follow these steps:
 Under Schema > public > Tables, right click.
 Select "View/Edit Data" followed by "First 100 Rows."
+
+### Connecting machine learning model to database
+
+Once databases have been set up, connect machine learning model to database by running linear regression.ipynb file. .to_sql sends any dataframe to a new table in our database. See modelmetrics table. This just serves as a static container for our data. We don't do much with it other than store for later, but databases can be useful in many ways, like keeping up-to-date data with API calls, etc.
