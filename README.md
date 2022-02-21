@@ -62,6 +62,25 @@ https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y
 •	From the preliminary results, a positive relationship was observed with some potential outliers that will be dealt later in the analysis.
 
 
+## Procedures
+- Having a clean data at hand, the next adventure is:
+•	To train the machine to predict per capita income of a state based on the educational attainment of that state’s population.
+•	To warehouse the data in a database, set a data pipeline that can be accessed down the road during the analysis.
+•	To query a sub-set of our data if further analysis is needed in a selected state or region.
+•	To further analyze the data in a visual format and build a dashboard/story out of it.
+•	To write a comprehensive slide material that will be used for the team presentation.
+•	To run a final assessment of the whole analysis and bring all moving parts to tell one cohesive story.
+•	Last, but not least is to present the findings our audiences and put few recommendations for further analysis.
+
+## Analysis
+
+•	During the test and train steps, a further data cleaning and formatting was done so that it fits the model.
+•	As expected, the data from 50 states on multiple levels of educational attainment (7 categories to be exact) and covers 15 years was found complex.
+•	Regardless of the complexity, the model is predicting per capita income of a state based on educational attainment.
+•	A database engine is created and is ready to functionally take our data to PostgreSQL for further analysis.
+•	A preliminary dashboard and presentation materials are in place. 
+
+
 
 
 
