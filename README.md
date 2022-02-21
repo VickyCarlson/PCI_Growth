@@ -58,7 +58,7 @@ https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y
 
 ## Initial test of data on Linear Regression Model
 
-•	To test degree of an educational attainment, affect state’s per capita income, a linear regression model was used.
+•	To test degree of an educational attainment effect on state’s per capita income, a linear regression model was used.
 •	From the preliminary results, a positive relationship was observed with some potential outliers that will be dealt later in the analysis.
 
 
