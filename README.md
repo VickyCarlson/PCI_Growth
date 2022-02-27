@@ -66,6 +66,7 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 - Below is a sample visual representation of per capita income from all states.
 
 
+![pci_2018](Resources/pci_2018.png)
 
 
 ## Initial Test of Data on Linear Regression Model
