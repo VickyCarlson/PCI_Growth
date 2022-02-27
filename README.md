@@ -41,9 +41,16 @@ https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y
 
 - Data was retrieved from those open government sources via API.
 
-For our datasets, we originally downloaded one .csv file with data on per capita income by state from 1998 to 2020 from the Bureau of Economic Analysis website (www.bea.gov). Educational attainment data was obtained by downloading individual Excel files for each year ranging from 2010 through 2019 from the American Community Survey data on the US census website (www.census.gov). We initially cleaned the data manually so that we could explore the data and begin a rough draft of our machine learning model. After analyzing our initial machine learning model, it was determined that it would be helpful to find additional educational attainment data for years prior to 2005.
-We used an API to connect to the census.gov website to retrieve additional data for educational attainment from the American Community Survey. Unfortunately, data prior to 2005 was not available through the API, but we were able to obtain the additional years 2005-2009. We also used the API to retrieve our original data that we had cleaned manually.
-We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the tables for the two date ranges differed slightly. The data in both files was cleaned by converting objects to strings, dropping unnecessary columns, combining and reordering columns. The data was then exported into one final .csv file.
+- For our datasets, we originally downloaded one .csv file with data on per capita income by state from 1998 to 2020 from the Bureau of Economic Analysis website (www.bea.gov). Educational attainment data was obtained by downloading individual Excel files for each year ranging from 2010 through 2019 from the American Community Survey data on the US census website (www.census.gov). 
+
+- We initially cleaned the data manually so that we could explore the data and begin a rough draft of our machine learning model. After analyzing our initial machine learning model, it was determined that it would be helpful to find additional educational attainment data for years prior to 2005.
+
+- We used an API to connect to the census.gov website to retrieve additional data for educational attainment from the American Community Survey. Unfortunately, data prior to 2005 was not available through the API, but we were able to obtain the additional years 2005-2009. 
+
+- We also used the API to retrieve our original data that we had cleaned manually.
+We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the tables for the two date ranges differed slightly. 
+
+- The data in both files was cleaned by converting objects to strings, dropping unnecessary columns, combining and reordering columns. The data was then exported into one final .csv file.
 
 
 - During the data cleaning process, all the irrelevant data was removed, and our final data included only the features that would answer our analysis questions: “What is the effect of educational attainment on per capita income growth by state?” 
