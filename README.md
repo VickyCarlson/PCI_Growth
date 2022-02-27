@@ -61,6 +61,13 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 - To analyze if educational attainment affects per capita income growth, we are analyzing data from all the 50 states in the country. 
 
+- As part of the analysis, we used per capita income of every state for 15 years (the same years used for the educational attainment).
+
+- Below is a sample visual representation of per capita income from all states.
+
+
+
+
 ## Initial Test of Data on Linear Regression Model
 
 - To test the degree of an educational attainment effect on state’s per capita income, a linear regression model was used.
