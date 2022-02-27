@@ -39,7 +39,7 @@ We chose our topic because we were interested in how much of an effect education
 -	Educational attainment from United States Census Bureau
 https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y2019.DP02 
 
-- Data was retrieved from those open government sources via API.
+- Data was retrieved from these open government sources via API.
 
 - For our datasets, we originally downloaded one .csv file with data on per capita income by state from 1998 to 2020 from the Bureau of Economic Analysis website (www.bea.gov). Educational attainment data was obtained by downloading individual Excel files for each year ranging from 2010 through 2019 from the American Community Survey data on the US census website (www.census.gov). 
 
@@ -51,7 +51,6 @@ https://data.census.gov/cedsci/table?q=DP02&g=0100000US%240400000&tid=ACSDP1%20Y
 We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the tables for the two date ranges differed slightly. 
 
 - The data in both files was cleaned by converting objects to strings, dropping unnecessary columns, combining and reordering columns. The data was then exported into one final .csv file.
-
 
 - During the data cleaning process, all the irrelevant data was removed, and our final data included only the features that would answer our analysis questions: “What is the effect of educational attainment on per capita income growth by state?” 
 
@@ -93,6 +92,9 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 	- Last, but not least, is to present the findings our audiences and make few recommendations for further analysis.
 
+## Technologies, Languages, Tools, and Algorithms
+
+
 ## Analysis
 
 - During the testing and training steps, further data cleaning and formatting was done so that that data fits the model.
@@ -104,3 +106,9 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 - A database engine is created and is ready to functionally take our data to PostgreSQL for further analysis.
 
 - A preliminary dashboard and presentation materials are in place. 
+
+### Links to Presentation in Google Slides and Tableau Storyboards
+
+- <a href="https://docs.google.com/presentation/d/1XPAN1EF5-9N-P1rKqkQP-pZIE7t4LfmM8g94Y2baC9A/edit?usp=sharing">Google Slides Presentation<a>
+- <a href="https://public.tableau.com/app/profile/vicky.carlson/viz/EffectofEducationalAttainmentonPerCapitaIncomeGrowth/Story1">Tableau Storyboard of PCI Growth and Educational Attainment Data<a>
+- <a href="https://public.tableau.com/app/profile/yousief.beyene/viz/pci_growth/CoefsandRSQDashboard">Tableau Storyboard of PCI Growth Analysis Including Coefficient Indicators and R Squared Values<a>
