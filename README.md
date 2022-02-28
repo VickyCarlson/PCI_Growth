@@ -27,7 +27,7 @@ We chose our topic because we were interested in how much of an effect education
 	- **Per Capita Income by State**, Bureau of Economic Analysis, www.bea.gov: Regional Economic Accounts, Personal Income (State and Local), Annual Personal Income and Employment by State
 		- https://apps.bea.gov/regional/downloadzip.cfm, SAINC5N_ALLAREAS_1998_2020.csv
 
-## Data Exploration and Cleaning
+## Data Exploration, Cleaning & Preprocessing
 
 - Our original project idea was to see which factors could affect GDP growth between various countries of the world. As we discussed the idea, we decided that this topic might not be appropriate for our project given the limited timeframe to complete the project. Detailed data can be difficult to find for all countries. In addition, since we were dealing with financial data, we would have to add an additional layer of complexity by accounting for exchange rates between currencies. Given the time restraint for our project, we abandoned this idea.
 
@@ -74,6 +74,15 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 - From the preliminary results, a positive relationship was observed with some potential outliers that will be dealt later in the analysis.
 
+- We did change our model once: At first, one singular machine learning model was trained on all data. However it was decided that for our purposes, we needed to run the model on each individual state. See an example linear regression plotted below (from linear_regression.ipynb)
+
+![LinearRegression](Resources/LinearRegression.png)
+
+- Results in the form of linear regression metrics like r2, coefficients and intercepts were output into json files, meant for easy processing into data visualization software Tableau. Some accuracy scores were better than others, as to be expected when running multiple models.
+
+- Using the Linear Regression model, we did achieve our desired results. The limitations are of course that linear regression can only model one explanatory varible. If we wanted to include more than one, we would have to switch to a multiple linear regression. However, the benefits are that a linear regression is one of the simpler models, and thus was relatively simple to set up.
+
+
 ## Procedures
 
 - Having clean data at hand, the next steps were:
@@ -93,7 +102,20 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 	- Last, but not least, is to present the findings our audiences and make few recommendations for further analysis.
 
 ## Technologies, Languages, Tools, and Algorithms
-
+- Python 3.7.11
+- Pandas 1.3.5
+- Requests 2.26.0
+- Censusdata 1.15
+- Pathlib 2.3.6
+- Matplotlib 3.5.0
+- Sklearn 1.0
+- Jupyter 1.0
+- pgAdmin 5.7
+- PostgreSQL
+- Tableau Desktop 20.4.2
+- Tableau Public
+- Microsoft Excel 
+- Google Drive, Docs, Slides
 
 ## Analysis
 
