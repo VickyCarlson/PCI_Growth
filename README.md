@@ -228,6 +228,11 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 - Regardless of the complexity, the model is predicting per capita income of a state based on educational attainment.
 
+
+![Coefs Heatmap](https://user-images.githubusercontent.com/89214854/156069634-8ae23e70-4db5-436c-a979-33463f74c7ba.png)
+
+
+
 - A database engine is created and is ready to functionally take our data to PostgreSQL for further analysis.
 
 - A preliminary dashboard and presentation materials are in place. 
