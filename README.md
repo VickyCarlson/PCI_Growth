@@ -87,7 +87,7 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 - Having clean data at hand, the next steps were:
 
-	To train the machine to predict per capita income of a state based on the educational attainment of that state’s population. We used SKLearn's linear regression module to train regressions in three tranches. The first measured the association between each of the seven levels of educational attainment and income without regard to the data's origination state. We then split the data by state, looping through each state and each education type to model the correlation between each level of education and income for each state. The third tranche of regressions used SKLearn's multivariate function to create combined models of education and income for each state. For each section of regressions, the data, r2, intercept, and slope variables were stored in a JSON-like nested list structure that could be loaded into modeling software.
+	- To train the machine to predict per capita income of a state based on the educational attainment of that state’s population. We used SKLearn's linear regression module to train regressions in three tranches. The first measured the association between each of the seven levels of educational attainment and income without regard to the data's origination state. We then split the data by state, looping through each state and each education type to model the correlation between each level of education and income for each state. The third tranche of regressions used SKLearn's multivariate function to create combined models of education and income for each state. For each section of regressions, the data, r2, intercept, and slope variables were stored in a JSON-like nested list structure that could be loaded into modeling software.
 
 	- To warehouse the data in a database, set a data pipeline that can be accessed down the road during the analysis.
 
@@ -119,7 +119,7 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 
 ## Analysis
 
--During the test and train steps, a further data cleaning and formatting was done so that it fits the model. The data was comprehended into a series of nested dictionaries and key sets, which could be queried within loops. This allowed us to create models by splitting the data in different ways. For example, we were able to create models for each level of educational attainment both with and without regard to the data's state. We used loops and the dictionaries to automatically generate models for each state and each education level.
+- During the test and train steps, a further data cleaning and formatting was done so that it fits the model. The data was comprehended into a series of nested dictionaries and key sets, which could be queried within loops. This allowed us to create models by splitting the data in different ways. For example, we were able to create models for each level of educational attainment both with and without regard to the data's state. We used loops and the dictionaries to automatically generate models for each state and each education level.
 
 - As expected, the data from 50 states on multiple levels of educational attainment (7 categories to be exact) and covers 15 years was found complex.
 
