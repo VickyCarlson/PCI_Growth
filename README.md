@@ -102,6 +102,7 @@ We used separate Jupyter notebook files for years 2005-2007 and 2008-2019 as the
 	- Last, but not least, is to present the findings our audiences and make few recommendations for further analysis.
 
 ## Technologies, Languages, Tools, and Algorithms
+
 - Python 3.7.11
 - Pandas 1.3.5
 - Requests 2.26.0
